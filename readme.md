@@ -10,4 +10,8 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. Clone the repo `git clone git@github.com:ObelusFamily/Anythink-Market-c6as9.git`
+2. (Install docker)[https://docs.docker.com/get-docker/]
+3. Run `docker-compose up` from the `Anythink-Market-c6as9` directory
+4. Navigate to (http://localhost:3000/api/ping) to make sure everything works
+5. Navigate to (http://localhost:3001/register) and set up an account
